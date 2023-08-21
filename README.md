@@ -1,4 +1,4 @@
-# Piezo1-BindingFreeEnergy
+# Piezo1-BindingFreeEnergy (NAMD FEP/REMD code for absolute binding free energy using simple distance restraint between protein and ligand)
 1. run mkdir.pl to generate 128 folders to save 128 lambda run
 2. set up protein-ligand distance restraint in inputfiles/*namd.col (for large ligand, add ligand RMSD restraint to improve sampling)
 3. change B column to 1 for ligand atoms in inputifles/pdb.fep
